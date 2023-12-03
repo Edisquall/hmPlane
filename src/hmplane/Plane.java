@@ -13,7 +13,7 @@ public class Plane {
     String company;
     int seats;
 
-    public Plane(String model, String company, int seats) {
+   public Plane(String model, String company, int seats) {
         this.model = model;
         this.company = company;
         this.seats = seats;
@@ -21,7 +21,11 @@ public class Plane {
     
 public void flight(String destination) {
  
-    System.out.printf("The flight %s with %s has %f going to %f is about to take off" ,model, company, seats, destination);
+    System.out.println("The "+ model +" from the company " + company + " with " + seats +" destination " + destination + " is about to take off");
     }
-
+public Plane() {
+    model = "Boieng 747-8";
+    company = "KLM";
+    seats = 747;
+}
 }
