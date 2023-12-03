@@ -14,7 +14,8 @@ public class HmPlane {
      * @param args the command line arguments
      */
     public void main(String[] args) {
-        
+        Plane plane1 = new Plane("Boeing 747-8", "KLM", 747);
+        plane1.flight("Brazil");
     }
     
 }
