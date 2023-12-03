@@ -9,5 +9,9 @@ package hmplane;
  * @author Edi
  */
 public class Plane {
+    String company;
+    String model;
+    int seats;
+    int numWheels;
     
 }
